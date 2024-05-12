@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import './Home.css';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -127,14 +127,18 @@ export default function Home() {
                     Social Oppurtunity Linkage & Ventures Network
                 </div>
                 <div className="hero-button-container">
-                    <a href="#about" className="button-know-more">
+                    <a href="about" className="button-know-more">
                         Know More...
                     </a>
-                    <a href="#" className="button-goto-docs">
+                    <Link to="/doc" className="button-goto-docs">
                         Go to Docs
-                    </a>
+                    </Link>
                 </div>
                 <div className="background-pattern"></div>
+            </div>
+
+            <div className="download-button-holder">
+                <a href="/public/"></a>
             </div>
 
             <div id="about" className="home-about-container">

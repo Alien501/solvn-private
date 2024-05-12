@@ -14,11 +14,13 @@
     padding: 10px;
     font-size: 1rem;
     border-radius: 15px;
-    background-color: #dddddd;
+    color: #fff;
+    background-color: #0e0b0b;
 }
 
 .code-req {
     background-color: #fff;
+    color: #000;
     width: max-content;
     padding: 10px;
     border-radius: 10px;
@@ -38,9 +40,10 @@
 
 .code-ans span {
     display: block;
+    padding: 5px;
 }
 
 .code-ans span:hover {
-    background-color: #c8c8c8;
+    background-color: #c8c8c871;
     cursor: pointer;
 }
